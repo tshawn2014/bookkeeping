@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>month</class>
+ <widget class="QDialog" name="month">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查看月明细</string>
+  </property>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>60</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="labelMonth">
+    <property name="text">
+     <string>月份</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_month">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Total</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>340</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHint_expense">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>198</y>
+     <width>48</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>支出明细</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_expense">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>215</y>
+     <width>441</width>
+     <height>166</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>种类</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>金额</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>原因</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>时间</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="labelHint_income">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>48</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>收入明细</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_income">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>27</y>
+     <width>441</width>
+     <height>166</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>种类</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>金额</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>原因</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>时间</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
